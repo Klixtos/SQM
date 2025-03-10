@@ -294,4 +294,4 @@ The middleware has minimal dependencies, requiring only:
    dotnet run
    ```
 
-This will help users understand the different components in your solution and how they work together, without implying that a NuGet package is available yet. 
+No Nuget package yet, maybe idk.
