@@ -267,7 +267,7 @@ The middleware has minimal dependencies, requiring only:
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/yourusername/SmartQueueMiddleware.git
+   git clone https://github.com/Klixtos/SQM.git
    ```
 
 2. **Open the solution** in your preferred IDE or code editor
