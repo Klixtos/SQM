@@ -1,0 +1,36 @@
+@SQMDemo_HostAddress = http://localhost:5175
+@SQMDemo_HttpsHostAddress = https://localhost:7032
+
+# Swagger UI - Open these URLs in a browser
+# {{SQMDemo_HostAddress}}/swagger
+# {{SQMDemo_HttpsHostAddress}}/swagger
+
+### CPU Usage Endpoint (HTTP)
+GET {{SQMDemo_HostAddress}}/cpu
+Accept: application/json
+
+### CPU Usage Endpoint (HTTPS)
+GET {{SQMDemo_HttpsHostAddress}}/cpu
+Accept: application/json
+
+### Memory Usage Endpoint (HTTP)
+GET {{SQMDemo_HostAddress}}/memory
+Accept: application/json
+
+### Memory Usage Endpoint (HTTPS)
+GET {{SQMDemo_HttpsHostAddress}}/memory
+Accept: application/json
+
+### Test Endpoint (HTTP) with variable processing time
+# Replace {id} with any identifier to track your request
+GET {{SQMDemo_HostAddress}}/test/request1
+Accept: application/json
+
+### Test Endpoint (HTTPS) with variable processing time
+# Replace {id} with any identifier to track your request
+GET {{SQMDemo_HttpsHostAddress}}/test/request1
+Accept: application/json
+
+### Swagger UI Direct Links (for browsers)
+# HTTP: {{SQMDemo_HostAddress}}/swagger
+# HTTPS: {{SQMDemo_HttpsHostAddress}}/swagger
